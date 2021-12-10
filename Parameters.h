@@ -2,7 +2,7 @@
 
 enum Parameters
 {
-    parameter_InputGain,
+    parameter_InputGain = 0,
     parameter_Drive,
     parameter_Range,
     parameter_Blend,
