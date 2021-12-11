@@ -17,7 +17,7 @@ MainPanel::MainPanel(TacurnaAudioProcessor* processor)
     
     mOutputGainPanel = std::make_unique<GainPanel>(processor);
     mOutputGainPanel->setTopLeftPosition(MAIN_PANEL_WIDTH - GAIN_PANEL_WIDTH, TOP_PANEL_HEIGHT);
-    mOutputGainPanel->setParameterID(parameter_OutputGain);
+    mOutputGainPanel->setParameterID(4);
     addAndMakeVisible(mOutputGainPanel.get());
     
     mCenterPanel = std::make_unique<CenterPanel>(processor);
