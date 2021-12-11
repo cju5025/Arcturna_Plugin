@@ -218,7 +218,7 @@ AudioProcessorValueTreeState::ParameterLayout TacurnaAudioProcessor::createParam
 {
     std::vector<std::unique_ptr<AudioParameterFloat>> params;
     
-    for (int i = 0; i < parameter_TotalNumParameters - 1; i++)
+    for (int i = 0; i < parameter_TotalNumParameters; i++)
     {
         params.push_back(std::make_unique<AudioParameterFloat>(ParameterID[i],
                                                                ParameterID[i],

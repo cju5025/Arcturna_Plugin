@@ -3,12 +3,12 @@
 enum Parameters
 {
     parameter_InputGain = 0,
-    parameter_Drive,
-    parameter_Range,
-    parameter_Blend,
-    parameter_OutputGain,
-    parameter_Type,
-    parameter_TotalNumParameters,
+    parameter_Drive = 1,
+    parameter_Range = 2,
+    parameter_Blend = 3,
+    parameter_OutputGain = 4,
+    parameter_Type = 5,
+    parameter_TotalNumParameters = 6,
 };
 
 static String ParameterID [parameter_TotalNumParameters] =
