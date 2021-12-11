@@ -220,10 +220,13 @@ AudioProcessorValueTreeState::ParameterLayout TacurnaAudioProcessor::createParam
     
     for (int i = 0; i < parameter_TotalNumParameters; i++)
     {
+        if (i < parameter_TotalNumParameters - 1)
+        {
         params.push_back(std::make_unique<AudioParameterFloat>(ParameterID[i],
                                                                ParameterID[i],
                                                                NormalisableRange<float>(0.001f, 1.0f),
                                                                0.5f));
+        }
         
     }
     
