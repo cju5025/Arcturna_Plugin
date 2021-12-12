@@ -14,3 +14,7 @@
 
 #define FX_PANEL_WIDTH               CENTER_PANEL_WIDTH
 #define FX_PANEL_HEIGHT              CENTER_PANEL_HEIGHT
+
+const Font font_1 ( "Helvetica Neue", 21.00f, Font::bold);
+const Font font_2 ( "Helvetica Neue", 12.00f, Font::plain);
+const Font font_3 ( "Helvetica Neue", 9.00f, Font::plain);
