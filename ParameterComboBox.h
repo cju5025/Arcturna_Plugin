@@ -10,6 +10,8 @@ public:
                           const String& parameterID);
     ~TacurnaParameterComboBox();
     
+    void paint(Graphics& g) override;
+    
 private:
     
     std::unique_ptr<AudioProcessorValueTreeState::ComboBoxAttachment> mAttachment;
