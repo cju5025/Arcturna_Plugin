@@ -12,3 +12,12 @@ TacurnaParameterComboBox::~TacurnaParameterComboBox()
 {
     
 }
+
+void TacurnaParameterComboBox::paint(Graphics& g)
+{
+    g.setColour(Colours::black);
+    g.drawRoundedRectangle(0, 0, getWidth(), getHeight(), 5, 5);
+    
+    g.setColour(Colour(67, 76, 80));
+    
+}
