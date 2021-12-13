@@ -1,5 +1,6 @@
 #pragma once
 #include "JuceHeader.h"
+#include "InterfaceDefines.h"
 
 class TacurnaParameterComboBox
 :   public ComboBox
